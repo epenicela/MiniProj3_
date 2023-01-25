@@ -1,0 +1,29 @@
+{
+  "name": "miniproj3_",
+  "version": "1.0.0",
+  "description": "Mini-projeto - desenvolvimento do back-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epenicela/MiniProj3_.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epenicela/MiniProj3_/issues"
+  },
+  "homepage": "https://github.com/epenicela/MiniProj3_#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
