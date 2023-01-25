@@ -3,23 +3,20 @@
 **Mini-projeto - desenvolvimento do back-end**
 Corresponde ao desenvolvimento inicial do back-end, onde para além de criar a aplicação no Express, visa o processamento dos formulários no lado do servidor com os aspetos de validação e pedidos GET, PUT, DEL e POST. Todo esta implementação de processamento de pedidos implica a definição de rotas.
 
-Iniciciando o Projecto
-npm init -y
+**1 - Iniciciando o Projecto**
+    npm init -y
 
-Instalando o express
-npm install --save express  
+**2 - Instalando o express**
+    npm install --save express  
 
-Instalando o nodemmon
-npm install --save nodemon -D
+**3 - Instalando o nodemmon**
+    npm install --save nodemon -D
 
-npm install --save nodemon -D
+**4 - Instalando o mongoose**
+    npm install mongoose
 
-Usando o mongoose
-$ npm install mongoose
+**41 - usando mongoose**
+    const mongoose = require('mongoose');
 
-const mongoose = require('mongoose');
-
-
-#Codigo para correr o projecto
-
-npm run dev
+**5 Codigo para correr o projecto atraves de nodemon**
+    npm run dev
